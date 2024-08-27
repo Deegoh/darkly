@@ -12,11 +12,11 @@ To set up and explore the Darkly project for web application security, follow th
    ```
 3. Create a virtual disk for the VM:
    ```zsh
-   qemu-img create -f qcow2 darkly.qcow2 20G
+   qemu-img create -f qcow2 VM/darkly.qcow2 20G
    ```
 4. Launch the VM using QEMU:
    ```zsh
-   sudo qemu-system-x86_64 -hda darkly.qcow2 -cdrom Darkly_i386.iso -m 2G -nic vmnet-bridged,ifname=en0
+   sudo qemu-system-x86_64 -hda VM/darkly.qcow2 -cdrom VM/Darkly_i386.iso -m 4G -nic vmnet-bridged,ifname=en0
    ```
 Note: Sudo is used here due to network privilege restrictions on our system.
 
