@@ -1,15 +1,20 @@
 # Darkly
+
 This project provides an excellent opportunity to gain hands-on experience with web application security.
 
 ## Installation
+
 To set up and explore the Darkly project for web application security, follow these steps:
-  
+
+### mac os arm
+
 1. Download the Darkly_i386.iso file provided for the project.
 2. Install QEMU if not already present:
 
    ```zsh
    brew install qemu
    ```
+
 3. Create a virtual disk for the VM:
    ```zsh
    qemu-img create -f qcow2 VM/darkly.qcow2 20G
@@ -18,9 +23,17 @@ To set up and explore the Darkly project for web application security, follow th
    ```zsh
    sudo qemu-system-x86_64 -hda VM/darkly.qcow2 -cdrom VM/Darkly_i386.iso -m 4G -nic vmnet-bridged,ifname=en0
    ```
-Note: Sudo is used here due to network privilege restrictions on our system.
+   Note: Sudo is used here due to network privilege restrictions on our system.
+
+### mac 42
+
+1. Download the Darkly_i386.iso file provided for the project.
+2. Add new vm on Linux Debian 64bit
+3. Add iso to the vm without hard disk
+4. Change network nat to bridge
 
 ## Exploring the Vulnerable Website
+
 Once the VM is running:
 
 1. Access the website through the VM's web browser.
@@ -48,40 +61,33 @@ Focus on identifying and understanding these common web application vulnerabilit
    - Test input fields and URL parameters for script injection.
    - Look for unsanitized user input reflected in the page.
 
-
 2. SQL Injection
 
    - Attempt to manipulate database queries through user inputs.
    - Look for error messages that reveal database information.
-
 
 3. Cross-Site Request Forgery (CSRF)
 
    - Check if the application uses anti-CSRF tokens.
    - Attempt to perform actions without proper authentication.
 
-
 4. Insecure Direct Object References (IDOR)
 
    - Try accessing resources by manipulating identifiers in URLs or parameters.
-
 
 5. Authentication Flaws
 
    - Test for weak password policies.
    - Look for vulnerabilities in login mechanisms, such as password reset functions.
 
-
 6. Session Management Issues
 
    - Analyze how sessions are handled and if they're properly secured.
-
 
 7. Security Misconfigurations
 
    - Check for information disclosure in error messages.
    - Look for unnecessary features or pages that shouldn't be accessible.
-
 
 ## Documenting Findings
 
