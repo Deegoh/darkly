@@ -8,6 +8,13 @@ When we tried, we didn't have any delay and rate limite.
 
 # Resolve
 
+python3 -m venv bruteforce\
+source bruteforce/bin/activate\
+pip install requests\
+
+run brute.py\
+Let him cook
+
 # Prevent
 
 - Account Lockout: Lock accounts after a defined number of incorrect password attempts
@@ -18,6 +25,6 @@ When we tried, we didn't have any delay and rate limite.
 
 # Resources
 
-https://owasp.org/www-community/attacks/Brute_force_attack
-https://owasp.org/www-community/attacks/Password_Spraying_Attack
+https://owasp.org/www-community/attacks/Brute_force_attack\
+https://owasp.org/www-community/attacks/Password_Spraying_Attack\
 https://www.f5.com/glossary/brute-force-attack

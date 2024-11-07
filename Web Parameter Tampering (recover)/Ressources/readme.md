@@ -9,7 +9,7 @@ The vulnerability allow you to steal data and do other attack like SQL Injection
 
 # Resolve
 
-Go to {url}/index.php?page=recover
+Go to http://10.11.249.210/index.php?page=recover
 Inspect code and you will find a hidden input.
 Change the value and submit
 
