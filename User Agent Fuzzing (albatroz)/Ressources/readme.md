@@ -18,6 +18,6 @@ curl -A "ft_bornToSec" -e "https://www.nsa.gov/" "http://10.11.249.210/?page=b7e
 
 # Resources
 
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers\
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer\
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers<br>
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referer<br>
 https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent

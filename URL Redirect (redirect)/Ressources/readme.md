@@ -4,7 +4,7 @@ The vulnerabilities occur when an application accepts untrusted input containing
 
 # Identification
 
-When we click on the url, we can see the rediction and the value is send to the url.\
+When we click on the url, we can see the rediction and the value is send to the url.<br>
 https://www.legitimate-site.com/redirect?url=https://malicious-site.com
 
 # Resolve

@@ -4,7 +4,7 @@ Directory Traversal is a web security vulnerability that enables an attacker to 
 
 # Identification
 
-Identify the part of the URL, we get page.\
+Identify the part of the URL, we get page.<br>
 The page parameter allows us to explore the file
 
 # Resolve

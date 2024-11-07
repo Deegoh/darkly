@@ -1,6 +1,6 @@
 # Vulnerability
 
-The vulnerability allow you to steal data and do other attack like SQL Injection
+The vulnerability allow you to steal data and do other attack like SQL Injection.
 
 # Identification
 
@@ -9,8 +9,8 @@ The vulnerability allow you to steal data and do other attack like SQL Injection
 
 # Resolve
 
-Go to http://10.11.249.210/index.php?page=recover
-Inspect code and you will find a hidden input.
+Go to http://10.11.249.210/index.php?page=recover<br>
+Inspect code and you will find a hidden input.<br>
 Change the value and submit
 
 # Prevent

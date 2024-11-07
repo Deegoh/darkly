@@ -52,7 +52,7 @@ countersign->md5->lower->sha256->flag
 
 # Resources
 
-https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html\
-https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection\
-https://www.dcode.fr/md5-hash\
+https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html<br>
+https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/07-Input_Validation_Testing/05-Testing_for_SQL_Injection<br>
+https://www.dcode.fr/md5-hash<br>
 https://www.dcode.fr/sha256-hash

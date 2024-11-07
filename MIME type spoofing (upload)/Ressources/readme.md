@@ -8,8 +8,8 @@ We have a form with an input that allows us to upload files.
 
 # Resolve
 
-open your terminal on do a request\
-create a script file\
+open your terminal on do a request<br>
+create a script file
 
 ```
 touch script.sh
